@@ -1,0 +1,19 @@
+@import '../../styles/settings.scss';
+
+.button {
+  margin: 20px;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: $color-success;
+  color: $color-light;
+  border: 0;
+  border-radius: $radius;
+  transition: $transition;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-light;
+    color: $color-success;
+  }
+}
